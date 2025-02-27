@@ -77,8 +77,11 @@ F. Market Study
 <!-- #region F1 -->
 
 <details>
-<summary></summary>
+<summary>1. (2020) Volatility Markets Underreacted to the Early Stages of the COVID-19 Pandemic</summary>
 
+本研究探討 2020 年 COVID-19 疫情爆發初期，市場對風險的反應是否符合標準資產定價模型的預期。研究發現，VIX 期貨市場在疫情初期對不斷上升的風險反應不足，呈現「低溢價反應」現象。
+
+這項研究為投資者提供了對市場非理性反應的深刻見解，並強調在極端市場條件下，利用 VIX 溢價異常信號進行交易的潛在獲利機會。
 
 [[中文]](chn/[02]VIX_Underreacted_COVID-19.md) [[英文]](eng/[02]raaa010.pdf)
 </details>
@@ -93,10 +96,6 @@ F. Market Study
 
 <details>
 <summary></summary>
-
-本研究探討 2020 年 COVID-19 疫情爆發初期，市場對風險的反應是否符合標準資產定價模型的預期。研究發現，VIX 期貨市場在疫情初期對不斷上升的風險反應不足，呈現「低溢價反應」現象。
-
-這項研究為投資者提供了對市場非理性反應的深刻見解，並強調在極端市場條件下，利用 VIX 溢價異常信號進行交易的潛在獲利機會。
 
 [[中文]](chn) [[英文]](eng)
 </details>
