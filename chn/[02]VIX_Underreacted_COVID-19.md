@@ -151,8 +151,12 @@
 - **如果 VIXP 為負值**：代表市場對未來風險的定價較低，可能存在市場錯定價或行為異常。
 
 #### **(2) ARMA 時間序列模型預測 VIX**
-- 為了計算統計預測值 $\hat{VIX}_t^T$ $\hat{VIX}$ $VIX_t^T$，本研究使用**ARMA (2,2) 模型**（自回歸移動平均模型）：
-  $VIX_t = \alpha +$ $\sum_{i=1}^{p} \beta_i$ $VIX_{t-i} +$ $\sum_{j=1}^{q}$ $\gamma_j \epsilon_{t-j} + \epsilon_t$
+- 為了計算統計預測值 $\hat{VIX}_t^T$ $\hat{VIX}$ $VIX_t^T$ ，本研究使用**ARMA (2,2) 模型**（自回歸移動平均模型）：
+  $VIX_t = \alpha +$ 
+  $\sum_{i=1}^{p} \beta_i$ 
+  $VIX_{t-i} +$ 
+  $\sum_{j=1}^{q}$ 
+  $\gamma_j \epsilon_{t-j} + \epsilon_t$
   - $p = 2$, $q = 2$ 代表選擇了兩個滯後期的 AR 和 MA 成分
   - $\epsilon_t$ 為隨機誤差項
   - 該模型基於 1990 年至 2020 年的歷史數據訓練，以動態窗口方式更新參數
