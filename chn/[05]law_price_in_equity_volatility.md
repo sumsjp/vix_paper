@@ -70,7 +70,7 @@
   - 定義套利偏差（Deviation）為：
 
 
-    $\text{Deviation}_{t,n} = \text{VIX期貨價格}_{t,n} - \sqrt{\text{方差交換遠期價格}_{t,n}}$
+    $\text{Deviation}_{t,n}$ $= \text{VIX期貨價格}_{t,n}$ - $\sqrt{\text{方差交換遠期價格}_{t,n}}$
   - 當偏差為**正值**時，VIX 期貨價格高於理論上限，代表靜態套利機會。
   - 當偏差為**負值**且顯著時，表示 VIX 期貨價格低於理論價格範圍，可能反映市場摩擦或風險補償需求。
 
@@ -82,11 +82,11 @@
 - **VIX 期貨套利偏差與未來回報的關係**：
   - 透過**時間序列迴歸（Time-Series Regression）**，測試套利偏差對 VIX 期貨回報的可預測性：
 
-  
-    $R^{\text{Fut}}_{t+h,n} - \beta_n R^{\text{Fwd}}_{t+h,n} = \alpha + \gamma \cdot \text{Deviation}_{t,n} + \varepsilon_{t+h,n}$
+
+    $R^{\text{Fut}}_{t+h,n}$ $- \beta_n R^{\text{Fwd}}_{t+h,n}$ $= \alpha + \gamma \cdot$ $\text{Deviation}_{t,n} +$ $\varepsilon_{t+h,n}$
     - $R^{\text{Fut}}_{t+h,n}$：VIX 期貨的超額回報（excess return）。
     - $R^{\text{Fwd}}_{t+h,n}$：方差交換合約的回報（hedging portfolio）。
-    - \(\gamma\) 為套利偏差的回報預測能力指標。
+    - $\gamma$ 為套利偏差的回報預測能力指標。
 
 - **風險與需求壓力的影響**：
   - 探討系統性風險（如 VIX 指數變動）與市場需求壓力（如散戶投資者透過 ETP 參與 VIX 期貨交易）對套利偏差的影響。
