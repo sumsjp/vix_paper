@@ -130,7 +130,7 @@ VIX 期貨基差主要反映 **波動率風險溢價（volatility risk premium�
 3. **波動率互換 (variance swaps) 在隨機波動率與跳躍市場下提供更穩定的 VRP 提取方式**，能較有效對沖市場風險。
 4. **在隨機波動率與跳躍市場 (Stochastic Volatility Jump Diffusion, SVJD) 下，單純依賴 delta 對沖期權無法有效提取 VRP，甚至可能造成重大損失**，因此需要動態調整交易策略。
 
-[[中文]](chn) [[英文]](eng)
+[[中文]](chn/[08]Harvesting_VRP.md) [[英文]](eng/[08]Shibo_Lu_01210524.pdf)
 </details>
 <!-- #endregion -->
 
