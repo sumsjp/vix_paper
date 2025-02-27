@@ -99,8 +99,8 @@
 - **回歸模型**：
   - 研究 VIX 期貨在**2008 年全球金融危機（GFC）**、**2011 年美國信用評級下調（US Credit Downgrade）**、**2016 年英國脫歐（Brexit）** 期間的表現：
     $R_t = \gamma_0 + \gamma_1 D(GFC) + \gamma_2 D(UScredit) + \gamma_3 D(Brexit) + \varepsilon_t$
-    - $D(GFC)$、$D(UScredit)$、$D(Brexit)$ 為在該事件發生期間的虛擬變數（值為 1，否則為 0）。
-    - 若 $\gamma_1$、$\gamma_2$、$\gamma_3$ 顯著為負，則表示 VIX 期貨在這些危機期間提供了安全港功能。
+    - $D(GFC)$, $D(UScredit)$, $D(Brexit)$ 為在該事件發生期間的虛擬變數（值為 1，否則為 0）。
+    - 若 $\gamma_1$, $\gamma_2$, $\gamma_3$ 顯著為負，則表示 VIX 期貨在這些危機期間提供了安全港功能。
 
 ### **4. 均值-方差效率前緣（Mean-Variance Efficient Frontier）**
 - **目的**：
