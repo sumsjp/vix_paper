@@ -1,27 +1,17 @@
-A. [Trend Following](#A)<br>
-B. [Mean Reversion](#B)<br>
-C. [Arbitrage](#C)<br>
-D. [Volatility Risk Premium](#D)<br>
-E. [Machine Learning](#E)<br>
-F. [Market Study](#F)<br>
+A. [Quantitative](#A)<br>
+B. [Arbitrage](#B)<br>
+C. [Volatility Risk Premium](#C)<br>
+D. [Machine Learning](#D)<br>
+E. [Market Study](#E)<br>
 
 ---
 
 <a name="A"></a>
-A. Trend-Following
+A. Quantitative
 
-<!-- #region Trend Following -->
-<!-- #endregion -->
+<!-- #region Quantitative -->
 
----
-
-<a name="B"></a>
-B. Mean Reversion
-
-
-<!-- #region Mean Reversion -->
-
-<!-- #region B1 -->
+<!-- #region A1 -->
 
 <details>
 <summary>1. (2016) Trading VIX Futures under Mean Reversion with Regime Switching</summary><br>
@@ -41,15 +31,29 @@ B. Mean Reversion
 
 <!-- #endregion -->
 
+<!-- #region A2 -->
+<details>
+<summary>2. (2020) Selling VIX Futures and Options for Portfolio Return Enhancement</summary><br>
+
+本研究探討**賣出VIX期貨與選擇權策略**對於**投資組合回報增強（Return Enhancement）**的影響，並評估其風險與回報特性。由於VIX期貨期限結構多呈順價差（Contango），賣出VIX期貨策略可能在某些市場環境下產生異常優異的表現。然而，該策略亦存在極端的尾部風險，特別是在市場波動劇增的時期，如**2008年金融危機**與**2018年2月「波動性風暴（Volmageddon）」**。
+
+研究發現，小額配置於VIX賣出策略可提高投資組合回報，但裸賣VIX部位可能導致潛在的經濟災難性損失。為降低風險，研究分析了**動態槓桿調整策略（Dynamic De-levering Strategies）**，如**VPDSM與VPNSM指數**，透過調整槓桿比例與VIX買權對沖，降低波動性與最大回撤，提升風險調整後回報。
+
+研究結果顯示，VIX賣出策略在市場穩定時可提升投資組合回報並擴展**效率前緣（Efficient Frontier）**，但長期持有或過度配置可能導致重大虧損。投資者應謹慎管理槓桿與風險對沖，以降低極端市場情境下的損失風險。
+
+[[中文]](chn/[07]Selling_VIX_Futures_and_Options.md) [[英文]](eng/[07]Szado_Selling_VIX_Fut_&_Opt_for_Enhancement_June_15_2020.pdf)
+</details>
+<!-- #endregion -->
+
 <!-- #endregion -->
 
 ---
 
-<a name="C"></a>
-C. Arbitrage
+<a name="B"></a>
+B. Arbitrage
 
 <!-- #region Arbitrage -->
-<!-- #region C1 -->
+<!-- #region B1 -->
 
 <details>
 <summary>1. (2017) Portfolio Effects of VIX Futures Index</summary><br>
@@ -69,7 +73,7 @@ C. Arbitrage
 
 <!-- #endregion -->
 
-<!-- #region C2 -->
+<!-- #region B2 -->
 
 <details>
 <summary>2. (2020) The Law of One Price in Equity Volatility Markets</summary><br>
@@ -87,15 +91,16 @@ C. Arbitrage
 
 <!-- #endregion -->
 
+<!-- #endregion -->
 
 ---
 
-<a name="D"></a>
-D. Volatility Risk Premium
+<a name="C"></a>
+C. Volatility Risk Premium
 
 <!-- #region Volatility Risk Premium -->
 
-<!-- #region D1 -->
+<!-- #region C1 -->
 
 <details>
 <summary>1. (2014) The VIX Futures Basis: Evidence and Trading Strategies</summary><br>
@@ -117,20 +122,20 @@ VIX 期貨基差主要反映 **波動率風險溢價（volatility risk premium�
 
 ---
 
-<a name="E"></a>
-E. Machine Learning
+<a name="D"></a>
+D. Machine Learning
 
 <!-- #region Machine Learning -->
 <!-- #endregion -->
 
 ---
 
-<a name="F"></a>
-F. Market Study
+<a name="E"></a>
+E. Market Study
 
 <!-- #region Market Study -->
 
-<!-- #region F1 -->
+<!-- #region E1 -->
 <details>
 <summary>1. (2020) Volatility Markets Underreacted to the Early Stages of the COVID-19 Pandemic</summary><br>
 
@@ -143,7 +148,7 @@ F. Market Study
 
 <!-- #endregion -->
 
-<!-- #region F2 -->
+<!-- #region E2 -->
 <details>
 <summary>2. (2020) Time-Dependent Lead-Lag Relationships between the VIX and VIX Futures Markets</summary><br>
 
@@ -161,16 +166,6 @@ F. Market Study
 
 <!-- #endregion -->
 
-<!-- #region F3 -->
-<details>
-<summary>3. Causality between <b>India</b> VIX and its Futures Prices</summary><br>
-
-印度波動率指數 (India VIX) 是基於 NIFTY 指數期權價格計算的波動率指數，用於反映市場參與者對未來短期市場波動的預期。隨著 VIX 期貨的推出，投資者可以利用該工具來進行投資組合的多樣化，或直接在期貨市場上進行波動率交易。因此，VIX 現貨市場與 VIX 期貨市場之間的關係成為市場參與者關注的焦點，他們希望了解 VIX 期貨市場是否能夠領先於 VIX 現貨市場，或者兩者之間是否存在互動關係。
-
-本研究對 **2014 年 2 月 26 日至 2016 年 3 月 31 日** 的數據進行了線性因果關係檢驗，以探討 India VIX 和 India VIX 期貨市場的關聯性。研究結果表明，**India VIX 和其期貨價格之間存在雙向因果關係** (bidirectional causality)，即現貨市場與期貨市場會同時對新資訊做出反應。這一發現對於投資者在交易和投資決策方面具有實用價值，也可為監管機構在設計和改進金融工具時提供參考。 
-
-[[中文]](chn/[07]Causality_India_VIX.md) [[英文]](eng/[07]Causality_India_VIX.pdf)
-</details>
 <!-- #endregion -->
 
 ---
