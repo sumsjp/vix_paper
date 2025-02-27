@@ -24,7 +24,7 @@ B. Mean Reversion
 <!-- #region B1 -->
 
 <details>
-<summary>1. (2016) Trading VIX Futures under Mean Reversion with Regime Switching</summary>
+<summary>1. (2016) Trading VIX Futures under Mean Reversion with Regime Switching</summary><br>
 
 本研究探討了一種基於**均值回歸與狀態轉換（Regime Switching）**的最優VIX期貨交易策略。透過**Cox-Ingersoll-Ross（CIR）模型**並引入狀態轉換機制，我們建立了一個數學框架來分析投資者的最佳進場與退場時機。這涉及到求解**變分不等式（Variational Inequalities）**系統，以確定最佳交易邊界。
 
@@ -95,7 +95,7 @@ F. Market Study
 <!-- #region X0 -->
 
 <details>
-<summary></summary>
+<summary></summary><br>
 
 [[中文]](chn) [[英文]](eng)
 </details>
