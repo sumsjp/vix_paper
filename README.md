@@ -131,7 +131,6 @@ F. Market Study
 <!-- #region Market Study -->
 
 <!-- #region F1 -->
-
 <details>
 <summary>1. (2020) Volatility Markets Underreacted to the Early Stages of the COVID-19 Pandemic</summary><br>
 
@@ -142,6 +141,22 @@ F. Market Study
 [[中文]](chn/[02]VIX_Underreacted_COVID-19.md) [[英文]](eng/[02]raaa010.pdf)
 </details>
 
+<!-- #endregion -->
+
+<!-- #region F2 -->
+<details>
+<summary>2. (2020) Time-Dependent Lead-Lag Relationships between the VIX and VIX Futures Markets</summary><br>
+
+本研究利用**對稱熱最優路徑方法（Symmetric Thermal Optimal Path, TOPS）**，探討**VIX（波動率指數）與 VIX 期貨市場**之間的動態交互模式。研究發現：
+
+1. 在最初幾年，尤其是在**VIX 期權推出之前**，VIX 指數對 VIX 期貨的影響較為顯著，顯示出 VIX 主導 VIX 期貨市場的情況。
+2. 通過 TOPS 方法分析的領先-滯後關係顯示，VIX 與 VIX 期貨之間的關係並非固定不變，而是呈現**交替變化的模式**，而非單向的市場主導關係。
+3. **VIX 期貨市場在價格發現中的作用隨時間增強**，特別是在**VIX 交易所交易產品（ETPs）推出後**，VIX 期貨市場變得更加重要。
+
+本研究的發現對於理解 VIX 及其衍生產品在價格發現過程中的角色具有重要意義。
+
+[[中文]](chn/[06]Time_Lead-Lag_VIX.md) [[英文]](eng/[06]1910.13729v1.pdf)
+</details>
 <!-- #endregion -->
 
 <!-- #endregion -->
