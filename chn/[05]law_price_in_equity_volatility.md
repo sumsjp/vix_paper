@@ -83,7 +83,7 @@
   - 透過**時間序列迴歸（Time-Series Regression）**，測試套利偏差對 VIX 期貨回報的可預測性：
 
 
-    $R^{\text{Fut}}_{t+h,n}$ $- \beta_n R^{\text{Fwd}}_{t+h,n}$ $= \alpha + \gamma \cdot$ $\text{Deviation}_{t,n} +$ $\epsilon_{t+h,n}$
+    $R^{\text{Fut}}_{t+h,n}$ $- \beta_n R^{\text{Fwd}}_{t+h,n}$ $= \alpha + \gamma \cdot$ $\text{Deviation}_{t,n} +$ $\varepsilon_{t+h,n}$
     - $R^{\text{Fut}}_{t+h,n}$：VIX 期貨的超額回報（excess return）。
     - $R^{\text{Fwd}}_{t+h,n}$：方差交換合約的回報（hedging portfolio）。
     - $\gamma$ 為套利偏差的回報預測能力指標。
