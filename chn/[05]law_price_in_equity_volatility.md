@@ -87,7 +87,9 @@
 
     $R^{Fut}_{t+h,n} - \beta_n$ 
     
+
     $R^{Fwd}_{t+h,n} =$ 
+    
     
     $\alpha + \gamma \cdot \text{Deviatio} n_{t,n} +$ $\varepsilon_{t+h,n}$
 
