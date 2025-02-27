@@ -70,7 +70,7 @@
   - 定義套利偏差（Deviation）為：
 
 
-    $\text{Deviation} R_{t,n} = \text{VIX期貨價格} R_{t,n} - \sqrt{\text{方差交換遠期價格}_{t,n}}$
+    $\text{Deviatio} n_{t,n} = \text{VIX期貨價格} R_{t,n} - \sqrt{\text{方差交換遠期價格}_{t,n}}$
 
 
   - 當偏差為**正值**時，VIX 期貨價格高於理論上限，代表靜態套利機會。
@@ -85,7 +85,7 @@
   - 透過**時間序列迴歸（Time-Series Regression）**，測試套利偏差對 VIX 期貨回報的可預測性：
 
 
-    $R^{\text{Fut}}_{t+h,n} - \beta_n R^{\text{Fwd}}_{t+h,n} = \alpha + \gamma \cdot \text{Deviation}_{t,n} + \varepsilon_{t+h,n}$
+    $R^{\text{Fu}} t_{t+h,n} - \beta_n R^{\text{Fw}} d_{t+h,n} = \alpha + \gamma \cdot \text{Deviation}_{t,n} + \varepsilon_{t+h,n}$
 
 
     - $R^{\text{Fut}}_{t+h,n}$：VIX 期貨的超額回報（excess return）。
