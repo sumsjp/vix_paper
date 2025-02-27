@@ -4,7 +4,7 @@
 4. [研究結果](#S4)
 5. [研究結論](#S5)
 
-# (2017) Causality between **India** VIX and its Futures Prices
+# (2017) Causality between India VIX and its Futures Prices
 
 <a name="S1"></a>
 ## 1. **摘要**
