@@ -105,7 +105,7 @@ VIX 期貨基差主要反映 **波動率風險溢價（volatility risk premium�
   - 透過歷史回歸分析確定 **VIX 期貨與 S&P 500 期貨之間的對沖比率（Hedge Ratio）**：
     - $\Delta VIXFutures_t = \beta_0 + \beta_1 \cdot \Delta SPX_t + \beta_2 \cdot \Delta SPX_t \cdot TTM_t + \varepsilon_t$
     - **對沖比率公式**：
-      $HR_t = \frac{\beta_1 \times 1000 + \beta_2 \times TTM_t \times 1000}{0.01 \times S&P \text{ futures price}_t \times 50}$
+      $HR_t = \frac{\beta_1 \times 1000 + \beta_2 \times TTM_t \times 1000}{0.01 \times SP \text{ futures price}_t \times 50}$
     - 計算每筆交易的最佳避險合約數，並進行 **動態避險調整**。
 
 - **風險管理機制（Risk Management Rules）**：
