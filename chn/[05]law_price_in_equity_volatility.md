@@ -70,7 +70,7 @@
   - 定義套利偏差（Deviation）為：
 
 
-    $\text{Deviation}_{t,n} = \text{VIX期貨價格}_{t,n}$
+    $\text{Deviation}_{t,n} = VIX期貨價格_{t,n}$
     
     -
     
