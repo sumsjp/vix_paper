@@ -85,7 +85,9 @@
   - 透過**時間序列迴歸（Time-Series Regression）**，測試套利偏差對 VIX 期貨回報的可預測性：
 
 
-    $R^{Fut}_{t+h,n} -$ $\beta_n R^{Fwd}_{t+h,n} =$ $\alpha + \gamma \cdot \text{Deviatio} n_{t,n} +$ $\varepsilon_{t+h,n}$
+    $R^{Fut}_{t+h,n}$
+    
+    $ -$ $\beta_n R^{Fwd}_{t+h,n} =$ $\alpha + \gamma \cdot \text{Deviatio} n_{t,n} +$ $\varepsilon_{t+h,n}$
 
     $R^{\text{Fut}}_{t+h,n} - \beta_n R^{\text{Fwd}}_{t+h,n} = \alpha + \gamma \cdot \text{Deviation}_{t,n} + \varepsilon_{t+h,n}$
 
