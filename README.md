@@ -3,7 +3,7 @@ B. [Mean Reversion](#B)<br>
 C. [Arbitrage](#C)<br>
 D. [Volatility Risk Premium](#D)<br>
 E. [Machine Learning](#E)<br>
-F. [Market Study](#G)<br>
+F. [Market Study](#F)<br>
 
 ---
 
@@ -76,6 +76,25 @@ C. Arbitrage
 D. Volatility Risk Premium
 
 <!-- #region Volatility Risk Premium -->
+
+<!-- #region D1 -->
+
+<details>
+<summary>1. (2014) The VIX Futures Basis: Evidence and Trading Strategies</summary><br>
+
+1. **基差無法有效預測 VIX 指數變動**  
+2. **基差可用於預測 VIX 期貨回報**  
+3. **基於基差的交易策略可獲利**  
+4. **市場風險對沖與風險管理措施的影響**  
+
+VIX 期貨基差主要反映 **波動率風險溢價（volatility risk premium）**，而非 VIX 指數的均值回歸特性。  
+透過適當的交易策略與對沖，投資者可有效捕捉這一風險溢價，獲得穩健回報。本研究提供了新的實證證據，支持基於 VIX 期貨基差的套利策略。
+
+[[中文]](chn/[04]VIX_Basis_Evidence_Tradin.md) [[英文]](eng/[04]The%20VIX%20Futures%20Basis_%20Evidence%20and%20Trading%20Strategies.pdf)
+</details>
+
+<!-- #endregion -->
+
 <!-- #endregion -->
 
 ---
