@@ -16,10 +16,10 @@ A. Trend-Following
 ---
 
 <a name="B"></a>
-B. Arbitrage
+B. Mean Reversion
 
 
-<!-- #region Arbitrage -->
+<!-- #region Mean Reversion -->
 
 <!-- #region B1 -->
 
