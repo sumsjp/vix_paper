@@ -118,6 +118,22 @@ VIX 期貨基差主要反映 **波動率風險溢價（volatility risk premium�
 </details>
 <!-- #endregion -->
 
+<!-- #region C3 -->
+<details>
+<summary>3. (2020) Harvesting Volatility Risk Premium
+</summary><br>
+
+本研究探討**波動率風險溢酬 (Volatility Risk Premium, VRP)** 的提取方式，特別關注**賣出 delta 對沖期權 (delta-hedged options)** 與**波動率互換 (variance swaps)** 兩種策略在不同金融模型下的表現。透過理論推導與數值模擬，研究發現：
+
+1. **VRP 來源於隱含波動率高於實現波動率的現象**，市場參與者可透過賣出波動率相關產品來獲取收益。
+2. **在 Black-Scholes 模型下，delta 對沖期權策略可有效提取 VRP**，但當市場存在**隨機波動率 (Heston 模型)** 或**跳躍風險 (Merton 模型)** 時，該策略的風險顯著增加，甚至可能產生極端虧損。
+3. **波動率互換 (variance swaps) 在隨機波動率與跳躍市場下提供更穩定的 VRP 提取方式**，能較有效對沖市場風險。
+4. **在隨機波動率與跳躍市場 (Stochastic Volatility Jump Diffusion, SVJD) 下，單純依賴 delta 對沖期權無法有效提取 VRP，甚至可能造成重大損失**，因此需要動態調整交易策略。
+
+[[中文]](chn) [[英文]](eng)
+</details>
+<!-- #endregion -->
+
 <!-- #endregion -->
 
 ---
