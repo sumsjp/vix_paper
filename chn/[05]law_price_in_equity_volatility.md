@@ -87,7 +87,8 @@
   - 透過**時間序列迴歸（Time-Series Regression）**，測試套利偏差對 VIX 期貨回報的可預測性：
     $$R^{\text{Fut}}_{t+h,n} - \beta_n R^{\text{Fwd}}_{t+h,n} = \alpha + \gamma \cdot \text{Deviation}_{t,n} + \varepsilon_{t+h,n}$$
 
-    <img src="https://latex.codecogs.com/svg.latex?\Large&space;R^{\text{Fut}}_{t+h,n} - \beta_n R^{\text{Fwd}}_{t+h,n} = \alpha + \gamma \cdot \text{Deviation}_{t,n} + \varepsilon_{t+h,n}" title="\Large R^{\text{Fut}}_{t+h,n} - \beta_n R^{\text{Fwd}}_{t+h,n} =
+    <img src="https://latex.codecogs.com/svg.latex?\Large%20R^{\text{Fut}}_{t+h,n}%20-%20\beta_n%20R^{\text{Fwd}}_{t+h,n}%20=%20\alpha%20+%20\gamma%20\cdot%20\text{Deviation}_{t,n}%20+%20\varepsilon_{t+h,n}" title="\Large R^{\text{Fut}}_{t+h,n} - \beta_n R^{\text{Fwd}}_{t+h,n} = \alpha + \gamma \cdot \text{Deviation}_{t,n} + \varepsilon_{t+h,n}" />
+
 
 
     <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
