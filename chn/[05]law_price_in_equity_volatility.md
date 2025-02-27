@@ -88,7 +88,6 @@
 
     <img src="https://latex.codecogs.com/svg.latex?\Large%20R^{\text{Fut}}_{t+h,n}%20-%20\beta_n%20R^{\text{Fwd}}_{t+h,n}%20=%20\alpha%20+%20\gamma%20\cdot%20\text{Deviation}_{t,n}%20+%20\varepsilon_{t+h,n}" title="\Large R^{\text{Fut}}_{t+h,n} - \beta_n R^{\text{Fwd}}_{t+h,n} = \alpha + \gamma \cdot \text{Deviation}_{t,n} + \varepsilon_{t+h,n}" height="20px" />
     
-
     - $R^{\text{Fut}}_{t+h,n}$：VIX 期貨的超額回報（excess return）。
     - $R^{\text{Fwd}}_{t+h,n}$：方差交換合約的回報（hedging portfolio）。
     - $\gamma$ 為套利偏差的回報預測能力指標。
