@@ -92,7 +92,7 @@
   - **極端市場波動 Dummy 變數回歸**
   - 透過 **10%、5%、1% 股市下跌分位數** 設定虛擬變數（Dummy Variables），檢測 VIX 在市場嚴重下跌時是否仍具避險效果：
     $R_t = \gamma_0 + \gamma_1 D(r_{10\%}) + \gamma_2 D(r_{5\%}) + \gamma_3 D(r_{1\%}) + \varepsilon_t$
-    $R_t = \gamma_0 +$ $\gamma_1 D(r_{10%})$ $+ \gamma_2 D(r_{5\%})$ $+ \gamma_3 D(r_{1\%})$ + $\varepsilon_t$
+    $R_t = \gamma_0 +$ $\gamma_1 D(r_{ 10% })$ $+ \gamma_2 D(r_{ 5\% })$ $+ \gamma_3 D(r_{1\%})$ + $\varepsilon_t$
 
     - $D(r_{10\%})$、$D(r_{5\%})$、$D(r_{1\%})$ 分別為 **當 S&P 500 跌幅超過 10%、5%、1%** 時的虛擬變數（值為 1，否則為 0）。
     - 若 $\gamma_1$、$\gamma_2$、$\gamma_3$ 顯著為負，則表示 VIX 期貨在極端市場風險時仍為有效的安全港。
