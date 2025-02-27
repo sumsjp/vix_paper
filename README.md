@@ -31,20 +31,6 @@ A. Quantitative
 
 <!-- #endregion -->
 
-<!-- #region A2 -->
-<details>
-<summary>2. (2020) Selling VIX Futures and Options for Portfolio Return Enhancement</summary><br>
-
-本研究探討**賣出VIX期貨與選擇權策略**對於**投資組合回報增強（Return Enhancement）**的影響，並評估其風險與回報特性。由於VIX期貨期限結構多呈順價差（Contango），賣出VIX期貨策略可能在某些市場環境下產生異常優異的表現。然而，該策略亦存在極端的尾部風險，特別是在市場波動劇增的時期，如**2008年金融危機**與**2018年2月「波動性風暴（Volmageddon）」**。
-
-研究發現，小額配置於VIX賣出策略可提高投資組合回報，但裸賣VIX部位可能導致潛在的經濟災難性損失。為降低風險，研究分析了**動態槓桿調整策略（Dynamic De-levering Strategies）**，如**VPDSM與VPNSM指數**，透過調整槓桿比例與VIX買權對沖，降低波動性與最大回撤，提升風險調整後回報。
-
-研究結果顯示，VIX賣出策略在市場穩定時可提升投資組合回報並擴展**效率前緣（Efficient Frontier）**，但長期持有或過度配置可能導致重大虧損。投資者應謹慎管理槓桿與風險對沖，以降低極端市場情境下的損失風險。
-
-[[中文]](chn/[07]Selling_VIX_Futures_and_Options.md) [[英文]](eng/[07]Szado_Selling_VIX_Fut_&_Opt_for_Enhancement_June_15_2020.pdf)
-</details>
-<!-- #endregion -->
-
 <!-- #endregion -->
 
 ---
@@ -116,6 +102,20 @@ VIX 期貨基差主要反映 **波動率風險溢價（volatility risk premium�
 [[中文]](chn/[04]VIX_Basis_Evidence_Tradin.md) [[英文]](eng/[04]The%20VIX%20Futures%20Basis_%20Evidence%20and%20Trading%20Strategies.pdf)
 </details>
 
+<!-- #endregion -->
+
+<!-- #region C2 -->
+<details>
+<summary>2. (2020) Selling VIX Futures and Options for Portfolio Return Enhancement</summary><br>
+
+本研究探討**賣出VIX期貨與選擇權策略**對於**投資組合回報增強（Return Enhancement）**的影響，並評估其風險與回報特性。由於VIX期貨期限結構多呈順價差（Contango），賣出VIX期貨策略可能在某些市場環境下產生異常優異的表現。然而，該策略亦存在極端的尾部風險，特別是在市場波動劇增的時期，如**2008年金融危機**與**2018年2月「波動性風暴（Volmageddon）」**。
+
+研究發現，小額配置於VIX賣出策略可提高投資組合回報，但裸賣VIX部位可能導致潛在的經濟災難性損失。為降低風險，研究分析了**動態槓桿調整策略（Dynamic De-levering Strategies）**，如**VPDSM與VPNSM指數**，透過調整槓桿比例與VIX買權對沖，降低波動性與最大回撤，提升風險調整後回報。
+
+研究結果顯示，VIX賣出策略在市場穩定時可提升投資組合回報並擴展**效率前緣（Efficient Frontier）**，但長期持有或過度配置可能導致重大虧損。投資者應謹慎管理槓桿與風險對沖，以降低極端市場情境下的損失風險。
+
+[[中文]](chn/[07]Selling_VIX_Futures_and_Options.md) [[英文]](eng/[07]Szado_Selling_VIX_Fut_&_Opt_for_Enhancement_June_15_2020.pdf)
+</details>
 <!-- #endregion -->
 
 <!-- #endregion -->
