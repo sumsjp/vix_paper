@@ -161,14 +161,24 @@ F. Market Study
 
 <!-- #endregion -->
 
+<!-- #region F3 -->
+<details>
+<summary>3. Causality between India VIX and its Futures Prices</summary><br>
+
+印度波動率指數 (India VIX) 是基於 NIFTY 指數期權價格計算的波動率指數，用於反映市場參與者對未來短期市場波動的預期。隨著 VIX 期貨的推出，投資者可以利用該工具來進行投資組合的多樣化，或直接在期貨市場上進行波動率交易。因此，VIX 現貨市場與 VIX 期貨市場之間的關係成為市場參與者關注的焦點，他們希望了解 VIX 期貨市場是否能夠領先於 VIX 現貨市場，或者兩者之間是否存在互動關係。
+
+本研究對 **2014 年 2 月 26 日至 2016 年 3 月 31 日** 的數據進行了線性因果關係檢驗，以探討 India VIX 和 India VIX 期貨市場的關聯性。研究結果表明，**India VIX 和其期貨價格之間存在雙向因果關係** (bidirectional causality)，即現貨市場與期貨市場會同時對新資訊做出反應。這一發現對於投資者在交易和投資決策方面具有實用價值，也可為監管機構在設計和改進金融工具時提供參考。 
+
+[[中文]](chn/[07]Causality_India_VIX.md) [[英文]](eng/[07]Causality_India_VIX.pdf)
+</details>
+<!-- #endregion -->
+
 ---
 
 <!-- #region X0 -->
-
 <details>
 <summary></summary><br>
 
 [[中文]](chn) [[英文]](eng)
 </details>
-
 <!-- #endregion -->
