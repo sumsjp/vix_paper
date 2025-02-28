@@ -215,9 +215,9 @@ E. Market Study
 </details>
 <!-- #endregion -->
 
-<!-- #region E4 -->
+<!-- #region E5 -->
 <details>
-<summary>４. (2019) The VIX Volatility Index – A Very Thorough Look at It</summary><br>
+<summary>5. (2019) The VIX Volatility Index – A Very Thorough Look at It</summary><br>
 
 本研究對芝加哥期權交易所（CBOE）計算的波動率指數（VIX）進行深入分析，檢視其計算方法的合理性與市場機制的潛在缺陷。我們透過理論推導與實證數據分析，發現 VIX 計算方式存在三大問題：
 
