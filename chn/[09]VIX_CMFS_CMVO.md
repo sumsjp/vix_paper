@@ -72,8 +72,8 @@
      - **SPVIX3ME、SPVIX4ME、SPVIXMP、SPVIX6ME** 等則對應 **3~6 個月** 的固定期限。
 
 3. **VIX CMFs 的期限結構（Term Structure）**：
-   - VIX 期貨通常處於**正價差（Contango）**狀態，即遠期 VIX 期貨價格高於近月合約，因為市場預期波動率會上升。
-   - 在市場恐慌時，VIX 期貨可能會進入**倒掛（Backwardation）**，即短期 VIX 期貨價格高於長期合約。
+   - VIX 期貨通常處於 **正價差（Contango）**狀態，即遠期 VIX 期貨價格高於近月合約，因為市場預期波動率會上升。
+   - 在市場恐慌時，VIX 期貨可能會進入 **逆價差（Backwardation）**，即短期 VIX 期貨價格高於長期合約。
    - 本研究發現，VIX CMFs 的**期限結構特徵**（如 μt 和 Δroll）**對預測次日 VIX CMFs 的收益率具有顯著作用**。
 
 ### **VIX CMFs 的數學公式**
@@ -176,10 +176,10 @@ $\max_{w_i} \sum_{i=1}^{n} w_i R_i - \gamma \cdot \text{Risk}$
 
 ### **2. C-MVO 交易步驟**
 #### **(1) 機器學習預測**
-使用 **XGBoost、LSTM、ALSTM、GRU 等機器學習模型** 預測 **VIX CMFs 次日收益**（$R_i$）。
+使用 **XGBoost、LSTM、ALSTM、GRU 等機器學習模型** 預測 **VIX CMFs 次日收益** ( $R_i$ )。
 
 #### **(2) 風險計算**
-根據過去 60 天的數據，計算 **VIX CMFs 之間的協方差矩陣（$\Sigma$）**，評估風險。
+根據過去 60 天的數據，計算 **VIX CMFs 之間的協方差矩陣（ $\Sigma$ ）**，評估風險。
 
 #### **(3) 最優化資產配置**
 透過數學規劃求解：
