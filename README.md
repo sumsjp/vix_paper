@@ -142,6 +142,15 @@ VIX 期貨基差主要反映 **波動率風險溢價（volatility risk premium�
 D. Machine Learning
 
 <!-- #region Machine Learning -->
+
+<!-- #region D1 -->
+<details>
+<summary>1. (2024) VIX Constant Maturity Futures Trading Strategy: A Walk-Forward Machine Learning Study</summary><br>
+
+[[中文]](chn/[09]VIX_CMFS_CMVO.md) [[英文]](eng/[09]VIX_constant_maturity_futures_trading_strategy_A_w.pdf)
+</details>
+<!-- #endregion -->
+
 <!-- #endregion -->
 
 ---
