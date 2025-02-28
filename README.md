@@ -9,38 +9,12 @@ E. [Market Study](#E)<br>
 <a name="A"></a>
 A. Quantitative
 
-<!-- #region Quantitative -->
-
-<!-- #region A1 -->
-
-<details>
-<summary>1. (2016) Trading VIX Futures under Mean Reversion with Regime Switching</summary><br>
-
-本研究探討了一種基於**均值回歸與狀態轉換（Regime Switching）**的最優VIX期貨交易策略。透過**Cox-Ingersoll-Ross（CIR）模型**並引入狀態轉換機制，我們建立了一個數學框架來分析投資者的最佳進場與退場時機。這涉及到求解**變分不等式（Variational Inequalities）**系統，以確定最佳交易邊界。
-
-研究的核心內容包括：
-1. **交易策略建模**：VIX 被建模為隨市場狀態變動的均值回歸過程，投資者可選擇**做多-平倉（long-short）或做空-平倉（short-long）**兩種交易策略。
-2. **最優時機決策**：投資者在不同市場狀態下選擇進場、持倉或離場的最優決策，該決策受交易成本與市場狀態轉換影響。
-3. **數值求解方法**：我們使用**投影逐次超鬆弛法（PSOR）**與Crank-Nicolson差分格式來求解最優停止問題，從而獲得最優交易邊界。
-4. **交易邊界與市場狀態的影響**：研究發現，交易成本的存在會擴大投資者的等待區間（即更傾向於等待更好的價格）；此外，市場狀態的轉變會顯著影響交易策略，投資者應根據市場環境調整其進場與退場時機。
-
-研究結果表明，在允許市場狀態轉換的情況下，投資者應**延遲進場，以獲取更優的交易機會**，相較於預先決定的單一做多或做空策略更具優勢。此外，本方法亦可應用於其他衍生性金融產品的最優交易決策，如**掉期（swaps）或期權（options）**。
-
-[[中文]](chn/[01]Mean_Reversion_Regime_Switching.md) [[英文]](eng/[01]1605.07945v2.pdf)
-</details>
-
-<!-- #endregion -->
-
-<!-- #endregion -->
-
 ---
 
 <a name="B"></a>
 B. Arbitrage
 
-<!-- #region Arbitrage -->
 <!-- #region B1 -->
-
 <details>
 <summary>1. (2017) Portfolio Effects of VIX Futures Index</summary><br>
 
@@ -56,11 +30,9 @@ B. Arbitrage
 
 [[中文]](chn/[03]Portfolio_Effects_VIX.md) [[英文]](eng/[03]Portfolio_Effects_of_VIX_Futures_Index.pdf)
 </details>
-
 <!-- #endregion -->
 
 <!-- #region B2 -->
-
 <details>
 <summary>2. (2020) The Law of One Price in Equity Volatility Markets</summary><br>
 
@@ -74,9 +46,6 @@ B. Arbitrage
 
 [[中文]](chn/[05]law_price_in_equity_volatility.md) [[英文]](eng/[05]sr953.pdf)
 </details>
-
-<!-- #endregion -->
-
 <!-- #endregion -->
 
 ---
@@ -84,10 +53,7 @@ B. Arbitrage
 <a name="C"></a>
 C. Volatility Risk Premium
 
-<!-- #region Volatility Risk Premium -->
-
 <!-- #region C1 -->
-
 <details>
 <summary>1. (2014) The VIX Futures Basis: Evidence and Trading Strategies</summary><br>
 
@@ -101,7 +67,6 @@ VIX 期貨基差主要反映 **波動率風險溢價（volatility risk premium�
 
 [[中文]](chn/[04]VIX_Basis_Evidence_Tradin.md) [[英文]](eng/[04]The%20VIX%20Futures%20Basis_%20Evidence%20and%20Trading%20Strategies.pdf)
 </details>
-
 <!-- #endregion -->
 
 <!-- #region C2 -->
@@ -134,14 +99,10 @@ VIX 期貨基差主要反映 **波動率風險溢價（volatility risk premium�
 </details>
 <!-- #endregion -->
 
-<!-- #endregion -->
-
 ---
 
 <a name="D"></a>
 D. Machine Learning
-
-<!-- #region Machine Learning -->
 
 <!-- #region D1 -->
 <details>
@@ -175,14 +136,26 @@ D. Machine Learning
 </details>
 <!-- #endregion -->
 
+<!-- #region D3 -->
+<details>
+<summary>3. (2021) The VIX Index under Scrutiny of Machine Learning Techniques and Neural Networks</summary><br>
+
+本研究探討 **芝加哥期權交易所（CBOE）波動率指數（VIX）** 的計算方法，並利用機器學習與深度學習技術（如神經網絡與長短期記憶網絡 LSTM）來複製和預測 VIX 指數及其期貨。VIX 指數基於 S&P 500 選擇權市場報價計算，然而，其受少數選擇權價格影響，存在市場操縱的可能性。研究結果顯示，**無需使用 CBOE 方法選定的所有選擇權（約 300 個），僅使用 52 個關鍵選擇權便可準確複製 VIX 指數**，並透過神經網絡學習其計算公式。
+
+基於基本神經網絡與 LSTM 模型，我們發現：
+1. **VIX 指數可以透過較少數量的選擇權複製**，並且神經網絡能成功學習 VIX 的計算方式，預測效果良好。
+2. **LSTM 多層模型在 VIX 指數的預測上表現最佳**，能有效學習市場長期依賴關係。
+3. **VIX 期貨的預測準確度較低**，即使使用相同的深度學習方法，預測誤差仍然較大。
+4. **研究結果揭示 VIX 可能受少數選擇權影響，這可能導致套利機會或市場操縱的可能性**。
+
+[[中文]](chn/[11]VIX_Scrutiny_NN.md) [[英文]](eng/[11]2102.02119v1.pdf)
+</details>
 <!-- #endregion -->
 
 ---
 
 <a name="E"></a>
 E. Market Study
-
-<!-- #region Market Study -->
 
 <!-- #region E1 -->
 <details>
@@ -194,7 +167,6 @@ E. Market Study
 
 [[中文]](chn/[02]VIX_Underreacted_COVID-19.md) [[英文]](eng/[02]raaa010.pdf)
 </details>
-
 <!-- #endregion -->
 
 <!-- #region E2 -->
@@ -213,8 +185,16 @@ E. Market Study
 </details>
 <!-- #endregion -->
 
-<!-- #endregion -->
+<!-- #region E3 -->
+<details>
+<summary>3. (2023) Media Coverage of Market Volatility and the Information Content for VIX Trading</summary><br>
 
+本研究透過文本分析方法衡量媒體情緒，主要分析新聞報導、博客文章及討論訊息，以探討其與市場情緒的關聯性，特別是對VIX期貨回報的影響。本研究發現，基於媒體情緒指數（隔夜計算），可以有效預測每日VIX期貨回報。然而，宏觀經濟公告會削弱其預測能力。此外，當發文量較大、交易量高、波動性增強及市場流動性較低時，情緒效應更為顯著。
+
+透過媒體情緒指數的交易策略顯示，該策略具有較高的績效，特別是基於新聞文章的分析結果最為顯著。這些結果表明，媒體情緒在波動性交易中具有經濟價值。
+
+[[中文]](chn/[11]Media-Coverage-of-Market-Volatility.md) [[英文]](eng/[11]Media-Coverage-of-Market-Volatility.docx_20230704.pdf)
+</details>
 <!-- #endregion -->
 
 ---
