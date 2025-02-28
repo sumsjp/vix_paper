@@ -106,7 +106,7 @@
 #### **(1) 均值方程（Mean Equation）**
 描述市場波動性（Range）與 VIX 變動的關係：
 
-<img src="https://latex.codecogs.com/svg.latex?\Large%20\Delta%20\text{Range}_t%20=%20\alpha%20+%20\sum_{i=0}^{n}%20\beta_i%20\Delta%20VIX_{t-i}%20+%20\sum_{j=0}^{m}%20\gamma_j%20X_{t-j}%20+%20\varepsilon_t" title="\Large \Delta \text{Range}_t = \alpha + \sum_{i=0}^{n} \beta_i \Delta VIX_{t-i} + \sum_{j=0}^{m} \gamma_j X_{t-j} + \varepsilon_t" height="20px" />
+<img src="https://latex.codecogs.com/svg.latex?\Large%20\Delta%20\text{Range}_t%20=%20\alpha%20+%20\sum_{i=0}^{n}%20\beta_i%20\Delta%20VIX_{t-i}%20+%20\sum_{j=0}^{m}%20\gamma_j%20X_{t-j}%20+%20\varepsilon_t" title="\Large \Delta \text{Range}_t = \alpha + \sum_{i=0}^{n} \beta_i \Delta VIX_{t-i} + \sum_{j=0}^{m} \gamma_j X_{t-j} + \varepsilon_t" height="40px" />
 
 其中：
 - $\alpha$ 為截距項
@@ -247,7 +247,7 @@ $\sigma_t^2 = \alpha_0 + \alpha_1 \varepsilon_{t-1}^2 + \beta_1 \sigma_{t-1}^2$
 - $\alpha_0$ 是常數項，代表最小波動性
 - $\alpha_1$ 是對過去誤差平方項（即 $\varepsilon_{t-1}^2$）的權重，稱為「ARCH 項」
 - $\beta_1$ 是對過去條件變異數（即 $\sigma_{t-1}^2$）的權重，稱為「GARCH 項」
-- 需滿足條件：<img src="https://latex.codecogs.com/svg.latex?\Large%20\alpha_0%20>%200,%20\alpha_1%20\geq%200,%20\beta_1%20\geq%200,%20\alpha_1%20+%20\beta_1%20<%201" title="\Large \alpha_0 > 0, \alpha_1 \geq 0, \beta_1 \geq 0, \alpha_1 + \beta_1 < 1" height="20px" /> 保證模型穩定
+- 需滿足條件：<img src="https://latex.codecogs.com/svg.latex?\Large%20\alpha_0%20>%200,%20\alpha_1%20\geq%200,%20\beta_1%20\geq%200,%20\alpha_1%20+%20\beta_1%20<%201" title="\Large \alpha_0 > 0, \alpha_1 \geq 0, \beta_1 \geq 0, \alpha_1 + \beta_1 < 1" height="15px" /> 保證模型穩定
 
 #### **2. GARCH（1,1）模型的應用**
 - **金融市場波動性建模**（如股票市場、期貨市場）
