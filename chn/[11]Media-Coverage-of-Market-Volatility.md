@@ -114,10 +114,10 @@
 $\text{Return}_t = \beta_0 + \beta_1 \text{Sentiment}_t + \sum \beta_n \text{Controls}_n + \varepsilon_t$
 
 其中：
-- ** $Return_t$ **：VIX期貨當日回報率
-- ** $Sentiment_t$ **：媒體情緒指數（負面/正面）
-- ** $Controls_n$ **：控制變數（交易量、波動性、流動性、EPU等）
-- ** $ε_t$ **：誤差項
+- $Return_t$ ：VIX期貨當日回報率
+- $Sentiment_t$ ：媒體情緒指數（負面/正面）
+- $Controls_n$ ：控制變數（交易量、波動性、流動性、EPU等）
+- $ε_t$ ：誤差項
 
 **(3) 交叉分析**
 - **不同市場條件下的媒體影響力**：
