@@ -75,7 +75,7 @@
 - **應變數（Dependent Variable）：**
   - **市場實現波動性（Realized Volatility）**：本研究以 **S&P 500 指數的日內波動範圍（Daily Range）** 作為衡量市場波動性的指標：
     $\text{Range}_t = \text{High}_t - \text{Low}_t$
-    - 其中，$\text{High}_t$ 和 $\text{Low}_t$ 分別為當日 S&P 500 指數的最高價與最低價。
+    - 其中， $\text{High}_t$ 和 $\text{Low}_t$ 分別為當日 S&P 500 指數的最高價與最低價。
     - 這種基於價格範圍的方法與 **Parkinson（1980）**、**Martens & Van Dijk（2007）** 等研究一致，被認為是一種有效的市場波動性度量方式。
 
 - **自變數（Independent Variables）：**
@@ -105,7 +105,9 @@
 ### **3. GARCH（1,1）模型**
 #### **(1) 均值方程（Mean Equation）**
 描述市場波動性（Range）與 VIX 變動的關係：
+
 $\Delta \text{Range}_t = \alpha + \sum_{i=0}^{n} \beta_i \Delta VIX_{t-i} + \sum_{j=0}^{m} \gamma_j X_{t-j} + \varepsilon_t$
+
 其中：
 - $\alpha$ 為截距項
 - $\beta_i$ 為 VIX 變動的影響係數
@@ -223,3 +225,46 @@ $\sigma_t^2 = \omega + \alpha_1 \varepsilon_{t-1}^2 + \beta_1 \sigma_{t-1}^2$
 
 <a name="S6"></a>
 ## 6. **補充：GARCH（1,1）模型**
+
+**GARCH（Generalized Autoregressive Conditional Heteroskedasticity，一般化自回歸條件異方差）模型**是由 **Bollerslev（1986）** 在 ARCH（Engle，1982）模型的基礎上發展而來，用於建模和預測時間序列數據中的波動性（Volatility）。
+
+#### **1. GARCH（1,1）模型的結構**
+GARCH（1,1）模型是最常用的金融市場波動性建模工具之一，特別適用於金融資產回報率（如股票、匯率、期貨價格）的變異數估計。其標準形式如下：
+
+##### **(1) 均值方程（Mean Equation）**
+$r_t = \mu + \varepsilon_t$
+其中：
+- $r_t$ 是資產在時間 $ t$ 的回報率（如股票日回報）
+- $\mu$ 是回報率的均值
+- $\varepsilon_t$ 是誤差項，代表隨機擾動，滿足 $\varepsilon_t = \sigma_t z_t$
+- $z_t$ 是一個標準正態分佈的隨機變數，$z_t \sim N(0,1)$
+- $\sigma_t^2$ 是條件變異數（Conditional Variance），用於刻畫市場波動性
+
+##### **(2) 變異數方程（Conditional Variance Equation）**
+$\sigma_t^2 = \alpha_0 + \alpha_1 \varepsilon_{t-1}^2 + \beta_1 \sigma_{t-1}^2$
+其中：
+- $\sigma_t^2$ 是條件變異數，即市場在 $t$ 時刻的預測波動性
+- $\alpha_0$ 是常數項，代表最小波動性
+- $\alpha_1$ 是對過去誤差平方項（即 $\varepsilon_{t-1}^2$）的權重，稱為「ARCH 項」
+- $\beta_1$ 是對過去條件變異數（即 $\sigma_{t-1}^2$）的權重，稱為「GARCH 項」
+- 需滿足條件：$\alpha_0 > 0, \alpha_1 \geq 0, \beta_1 \geq 0, \alpha_1 + \beta_1 < 1$ 保證模型穩定
+
+#### **2. GARCH（1,1）模型的應用**
+- **金融市場波動性建模**（如股票市場、期貨市場）
+- **風險管理**（如 VaR 計算）
+- **衍生品定價**（如期權市場）
+- **貨幣市場波動**（如匯率預測）
+
+#### **3. 為何使用 GARCH（1,1）模型**
+- **金融市場具有波動聚集性（Volatility Clustering）**：即高波動性時期和低波動性時期會持續一段時間，而不是隨機出現。
+- **允許時間序列的條件變異數變化**：相較於 OLS 模型假設的恆定變異數，GARCH 模型能動態調整市場的波動水平。
+- **能夠捕捉長期與短期影響**：GARCH（1,1）考慮了過去的誤差項（短期影響）和過去的波動性（長期影響），適合金融市場應用。
+
+#### **4. GARCH（1,1）模型在本論文中的應用**
+本研究利用 GARCH（1,1）模型來探討 **VIX（波動率指數）與市場波動性（S&P 500 指數的日內價格範圍）之間的關係**，通過：
+- 檢測 VIX 變化是否能夠解釋市場波動性
+- 區分交易時段與非交易時段對市場波動的影響
+- 觀察 VIX 在不同交易日（如週一、週五）對市場波動的不同影響
+
+### **結論**
+GARCH（1,1）模型是一種廣泛應用於金融市場波動性分析的統計模型，能夠有效捕捉市場的異方差特性。本研究的結果證實 VIX 是市場波動性的重要預測變數，並且不同時段的 VIX 變化對市場波動性的影響存在顯著差異，這些發現對投資者進行風險管理和市場預測具有重要意義。
